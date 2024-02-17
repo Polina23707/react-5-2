@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid red;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.news-currency {
+  display: flex;
+  flex-direction: row;
+}
+
+.currency-item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.search-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-row {
+  border: 2px solid rgba(194, 194, 55, 0.793);
+  box-sizing: border-box;
+  width: 800px;
+}
+
+.widget {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+.widget-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid green;
+  width: 800px;
+  height: 300px;
+}
+
+.weather-widget {
+  display: flex;
+  flex-direction: row;
+}
+
+.widget-list {
+  list-style: none;
+}
+
+.program-widget {
+  display: flex;
+  flex-direction: row;
+}
+
+.program-item {
+  margin: 1px 5px;
+}
+
+.map-widget {
+  display: flex;
+  flex-direction: row;
+}
